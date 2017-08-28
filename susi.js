@@ -30,6 +30,7 @@ const askSusi=function (query,cb) {
 					}
 					message += '\n\n';
 				}
+				console.log(message);
 			}
 			else
 			{
