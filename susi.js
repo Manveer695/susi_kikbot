@@ -41,6 +41,7 @@ const askSusi=function (query,cb) {
     else {
       cb('Oops, Looks like Susi is taking a break, She will be back soon')
     }
+    return Promise.reject();
   });
 }
 
