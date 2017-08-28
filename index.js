@@ -17,6 +17,7 @@ bot.updateBotConfiguration();
 bot.onTextMessage((message) => {
     susi.ask(message.body,function (answer) {
       message.reply(answer)
+    return Promise.reject();
     })
 });
 
